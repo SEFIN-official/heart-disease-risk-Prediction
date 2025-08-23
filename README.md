@@ -15,7 +15,7 @@ Build a UI allowing users to input health metrics and develop a machine learning
 📝 Description
 This project focuses on:
 
-Designing a user-friendly interface (Flask/Streamlit) for health data input.
+Designing a user-friendly interface (Streamlit) for health data input.
 Training and deploying a classification model (Random Forest or similar).
 Providing users with real-time predictions based on medical data.
 🛠️ Technologies Used
@@ -26,7 +26,16 @@ Scikit-learn → Machine Learning
 Matplotlib, Seaborn → Visualization
 Joblib → Model Saving & Loading
 📂 Project Structure
-HEART_DISEASE_PROJECT/ │-- app/ │ └── app.py # Streamlit / Flask application │ │-- data/ │ └── heart.csv # Dataset │ │-- models/ │ └── heart_rf_pipeline.joblib # Trained ML model │ │-- notebooks/ │ └── heart_modeling.ipynb # Jupyter notebook for EDA & training │ │-- venv/ # Virtual environment (ignored in GitHub) │ │-- requirements.txt # Project dependencies │-- README.md # Documentation
+HEART_DISEASE_PROJECT/
+│-- app.py # Streamlit / Flask application
+│-- heart.csv # Dataset
+│-- heart_rf_pipeline.joblib # Trained ML model
+│-- heart_modeling.ipynb # Jupyter notebook for EDA & training
+│-- venv/ # Virtual environment (ignored in GitHub)
+│-- requirements.txt # Project dependencies
+│-- README.md # Documentation
+
+
 
 ⚡ Installation & Setup
 1️⃣ Clone the repository
