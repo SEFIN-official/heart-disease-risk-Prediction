@@ -25,6 +25,7 @@ Providing users with real-time predictions based on medical data.
 - Scikit-learn → Machine Learning
 - Matplotlib, Seaborn → Visualization
 - Joblib → Model Saving & Loading
+---
 📂 Project Structure
 - HEART_DISEASE_PROJECT/
 - │
@@ -57,23 +58,25 @@ Providing users with real-time predictions based on medical data.
 ---
 3️⃣ Install dependencies
 - pip install -r requirements.txt
-- 
+---
 4️⃣ Run the Streamlit app
 - streamlit run app/app.py
+---
 📦 requirements.txt
-streamlit==1.36.0
-pandas==2.2.2
-numpy==1.26.4
-scikit-learn==1.5.1
-matplotlib>=3.8
-seaborn==0.13.2
-joblib==1.4.2
+- streamlit==1.36.0
+- pandas==2.2.2
+- numpy==1.26.4
+- scikit-learn==1.5.1
+- matplotlib>=3.8
+- seaborn==0.13.2
+- joblib==1.4.2
+---
 📊 Dataset
 You can use:
-🔗 Kaggle -https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
+- 🔗 Kaggle -https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
 
 📖 What You Learn
-✅ UI design for healthcare applications
-✅ Understanding cardiovascular risk factors
-✅ ML classification workflows (EDA → Training → Deployment)
-✅ Integrating ML with web applications
+- ✅ UI design for healthcare applications
+- ✅ Understanding cardiovascular risk factors
+- ✅ ML classification workflows (EDA → Training → Deployment)
+- ✅ Integrating ML with web applications
