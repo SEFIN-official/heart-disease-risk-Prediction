@@ -27,13 +27,22 @@ Matplotlib, Seaborn → Visualization
 Joblib → Model Saving & Loading
 📂 Project Structure
 HEART_DISEASE_PROJECT/
-│-- app.py # Streamlit / Flask application
-│-- heart.csv # Dataset
-│-- heart_rf_pipeline.joblib # Trained ML model
-│-- heart_modeling.ipynb # Jupyter notebook for EDA & training
-│-- venv/ # Virtual environment (ignored in GitHub)
-│-- requirements.txt # Project dependencies
-│-- README.md # Documentation
+│
+├── app/
+│   └── app.py
+│
+├── data/
+│   └── heart.csv
+│
+├── models/
+│   └── heart_rf_pipeline.joblib
+│
+├── notebooks/
+│   └── heart_modeling.ipynb
+│
+├── requirements.txt
+
+
 
 
 
