@@ -1,1 +1,64 @@
 # heart-disease-risk-Prediction
+📌 Project ID
+#CC69858
+
+📌 Project Title
+Heart Disease Risk Assessment
+
+📌 Internship Details
+Internship Domain: Data Science Intern
+Project Level: Golden Level
+Assigned By: CodeClause Internship
+🎯 Aim
+Build a UI allowing users to input health metrics and develop a machine learning model to predict the risk of heart disease.
+
+📝 Description
+This project focuses on:
+
+Designing a user-friendly interface (Flask/Streamlit) for health data input.
+Training and deploying a classification model (Random Forest or similar).
+Providing users with real-time predictions based on medical data.
+🛠️ Technologies Used
+Python 3.10+
+Streamlit / Flask → Web UI
+Pandas, NumPy → Data Handling
+Scikit-learn → Machine Learning
+Matplotlib, Seaborn → Visualization
+Joblib → Model Saving & Loading
+📂 Project Structure
+HEART_DISEASE_PROJECT/ │-- app/ │ └── app.py # Streamlit / Flask application │ │-- data/ │ └── heart.csv # Dataset │ │-- models/ │ └── heart_rf_pipeline.joblib # Trained ML model │ │-- notebooks/ │ └── heart_modeling.ipynb # Jupyter notebook for EDA & training │ │-- venv/ # Virtual environment (ignored in GitHub) │ │-- requirements.txt # Project dependencies │-- README.md # Documentation
+
+⚡ Installation & Setup
+1️⃣ Clone the repository
+
+git clone https://github.com/yourusername/HeartDiseaseRisk.git
+cd HEART_DISEASE_PROJECT
+2️⃣ Create virtual environment (Windows example)
+
+
+py -3.10 -m venv venv
+venv\Scripts\activate
+3️⃣ Install dependencies
+
+pip install -r requirements.txt
+4️⃣ Run the Streamlit app
+
+
+streamlit run app/app.py
+📦 requirements.txt
+streamlit==1.36.0
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.1
+matplotlib>=3.8
+seaborn==0.13.2
+joblib==1.4.2
+📊 Dataset
+You can use:
+🔗 Kaggle -https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
+
+📖 What You Learn
+✅ UI design for healthcare applications
+✅ Understanding cardiovascular risk factors
+✅ ML classification workflows (EDA → Training → Deployment)
+✅ Integrating ML with web applications
