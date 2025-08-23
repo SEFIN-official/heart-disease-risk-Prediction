@@ -48,6 +48,7 @@ Providing users with real-time predictions based on medical data.
 
 
 ⚡ Installation & Setup
+---
 1️⃣ Clone the repository
 - git clone https://github.com/SEFIN-official/heart-disease-risk-Prediction.git
 - cd HEART_DISEASE_PROJECT
