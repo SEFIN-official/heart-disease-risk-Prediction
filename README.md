@@ -26,21 +26,21 @@ Scikit-learn → Machine Learning
 Matplotlib, Seaborn → Visualization
 Joblib → Model Saving & Loading
 📂 Project Structure
-HEART_DISEASE_PROJECT/
-│
-├── app/
-│   └── app.py
-│
-├── data/
-│   └── heart.csv
-│
-├── models/
-│   └── heart_rf_pipeline.joblib
-│
-├── notebooks/
-│   └── heart_modeling.ipynb
-│
-├── requirements.txt
+- HEART_DISEASE_PROJECT/
+- │
+- ├── app/
+- │   └── app.py
+- │
+- ├── data/
+- │   └── heart.csv
+- │
+- ├── models/
+- │   └── heart_rf_pipeline.joblib
+- │
+- ├── notebooks/
+- │   └── heart_modeling.ipynb
+- │
+- ├── requirements.txt
 
 
 
