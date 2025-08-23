@@ -19,12 +19,12 @@ Designing a user-friendly interface (Streamlit) for health data input.
 Training and deploying a classification model (Random Forest or similar).
 Providing users with real-time predictions based on medical data.
 🛠️ Technologies Used
-Python 3.10+
-Streamlit / Flask → Web UI
-Pandas, NumPy → Data Handling
-Scikit-learn → Machine Learning
-Matplotlib, Seaborn → Visualization
-Joblib → Model Saving & Loading
+- Python 3.10+
+- Streamlit  → Web UI
+- Pandas, NumPy → Data Handling
+- Scikit-learn → Machine Learning
+- Matplotlib, Seaborn → Visualization
+- Joblib → Model Saving & Loading
 📂 Project Structure
 - HEART_DISEASE_PROJECT/
 - │
@@ -48,21 +48,18 @@ Joblib → Model Saving & Loading
 
 ⚡ Installation & Setup
 1️⃣ Clone the repository
-
-git clone https://github.com/SEFIN-official/heart-disease-risk-Prediction.git
-cd HEART_DISEASE_PROJECT
+- git clone https://github.com/SEFIN-official/heart-disease-risk-Prediction.git
+- cd HEART_DISEASE_PROJECT
+---
 2️⃣ Create virtual environment (Windows example)
-
-
-py -3.10 -m venv venv
-venv\Scripts\activate
+- py -3.10 -m venv venv
+- venv\Scripts\activate
+---
 3️⃣ Install dependencies
-
-pip install -r requirements.txt
+- pip install -r requirements.txt
+- 
 4️⃣ Run the Streamlit app
-
-
-streamlit run app/app.py
+- streamlit run app/app.py
 📦 requirements.txt
 streamlit==1.36.0
 pandas==2.2.2
