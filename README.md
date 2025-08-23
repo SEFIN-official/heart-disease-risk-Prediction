@@ -49,7 +49,7 @@ HEART_DISEASE_PROJECT/
 ⚡ Installation & Setup
 1️⃣ Clone the repository
 
-git clone https://github.com/yourusername/HeartDiseaseRisk.git
+git clone https://github.com/SEFIN-official/heart-disease-risk-Prediction.git
 cd HEART_DISEASE_PROJECT
 2️⃣ Create virtual environment (Windows example)
 
