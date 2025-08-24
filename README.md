@@ -82,6 +82,7 @@ You can use:
 - ✅ Understanding cardiovascular risk factors
 - ✅ ML classification workflows (EDA → Training → Deployment)
 - ✅ Integrating ML with web applications
-OUTPUT:
-<img width="1920" height="1080" alt="Screenshot (79)" src="https://github.com/user-attachments/assets/db5526d1-4a42-4b1b-8676-13b1c16827dd" />
+OUTPUT SCREENSHOT:
+<img width="1920" height="903" alt="Screenshot (79)" src="https://github.com/user-attachments/assets/f52b81c5-1e86-400a-9137-d0b545fff887" />
+
 
